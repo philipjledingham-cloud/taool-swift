@@ -162,6 +162,20 @@ struct WhatsNewPageTests {
         #expect(PresentedWhatsNew(page: page, appVersion: "1.9", appStoreURL: nil, language: "sv").url.absoluteString.contains("language=sv&update=1"))
     }
 
+    @Test func aScreenOfTheAppsOwn_getsTheVersion_andTheUpdateOnlyWhenThisBuildIsOlder() {
+        let older = TaoolUpdates.WhatsNew(shown: PresentedWhatsNew(page: page, appVersion: "1.9", appStoreURL: nil, language: "en"))
+        #expect(older.version == "2.0")
+        #expect(older.updateTo == "2.0")
+        #expect(older.updateMessage?.contains("2.0") == true)
+        #expect(older.pageURL.absoluteString.hasSuffix("update=1"), "the page it stands in for, as the built-in sheet would load it")
+        #expect(older.id == "p1")
+
+        let current = TaoolUpdates.WhatsNew(shown: PresentedWhatsNew(page: page, appVersion: "2.0", appStoreURL: nil, language: "en"))
+        #expect(current.updateTo == nil)
+        #expect(current.updateMessage == nil, "nothing to update to: no line for it")
+        #expect(!current.button.isEmpty)
+    }
+
     @Test func testFlightBuilds_seeTheNewestTestFlightPageAtOrBelowTheirVersion_whenItsTheNewer() {
         let twoOne = WhatsNewPage(id: "tf21", url: page.url, version: "2.1", releasedAt: nil)
         let twoTwo = WhatsNewPage(id: "tf22", url: page.url, version: "2.2", releasedAt: nil)

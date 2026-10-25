@@ -180,6 +180,20 @@ if TaoolUpdates.hasWhatsNew {
 
 `mode: .manual` shows the page only from `showWhatsNew()`, for an app that picks the moment itself.
 
+**Your own What's New screen.** An app that already has one keeps it: put `.taoolWhatsNewScreen` once after the modifiers, and TaoolKit still decides when it shows (once per version, to users who had the app before it, held, never over the update screen, TestFlight first) while the sheet shows your screen in place of the page. Upload a page for each version all the same: it's what tells TaoolKit the version has news. For a version your build knows nothing about, such as a newer one, `TaoolUpdates.WhatsNewPageSheet` shows the page:
+
+```swift
+ContentView()
+    .taoolWhatsNew(key: "taool_public_…")
+    .taoolWhatsNewScreen { whatsNew in
+        if let release = MyReleases[whatsNew.version] {
+            MyWhatsNew(release)                          // whatsNew.updateTo, .updateMessage, .button, .open()
+        } else {
+            TaoolUpdates.WhatsNewPageSheet(whatsNew)
+        }
+    }
+```
+
 - **Once per version, on each device.** Uploading a page again for a version already shown (to fix a typo), or deleting a newer page so an older one is live again, doesn't show it again.
 - **In TestFlight before the App Store.** Turn on Show in TestFlight for a page in the taool app, and TestFlight builds on its version or newer show it right away, before it's live on the App Store (the newest such page at or below the build's version, when it's newer than the live one). App Store installs never see it until it's published, and a tester who saw it doesn't see it again once it is. Builds from Xcode count as TestFlight, so you can check it while developing.
 - It works with or without update prompts. It never shows while this version must update, so never over the update screen: it waits until the user has updated.

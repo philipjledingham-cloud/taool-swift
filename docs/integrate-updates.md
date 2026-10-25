@@ -126,7 +126,7 @@ struct MyApp: App {
       Button("What's New") { TaoolUpdates.showWhatsNew() }
   }
   ```
-- Don't build a What's New screen of your own. If the app has one, ask the developer which to keep.
+- Don't build a What's New screen of your own. If the app has one, ask the developer which to keep. To keep it and let taool decide when it shows, add `.taoolWhatsNewScreen { whatsNew in … }` after the modifiers and draw the app's screen for `whatsNew.version`, falling back to `TaoolUpdates.WhatsNewPageSheet(whatsNew)` for a version the app has nothing for. A page still has to be uploaded for each version.
 - The page never shows while this version must update: it waits until the user has updated.
 
 ## 3. Debug builds with their own bundle ID

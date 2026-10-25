@@ -53,6 +53,7 @@ struct WhatsNewModifier: ViewModifier {
     let mode: WhatsNewMode
 
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.taoolWhatsNewScreen) private var customScreen
     @State private var shown: PresentedWhatsNew?
 
     private var requirement: ServerRequirement { .shared }
@@ -62,7 +63,13 @@ struct WhatsNewModifier: ViewModifier {
 
     func body(content: Content) -> some View {
         content
-            .sheet(item: $shown) { WhatsNewSheet(shown: $0) }
+            .sheet(item: $shown) { shown in
+                if let customScreen {
+                    CustomWhatsNew(shown: shown, screen: customScreen)
+                } else {
+                    WhatsNewSheet(shown: shown)
+                }
+            }
             // Held back until the app's own onboarding or sheet is done.
             .onChange(of: mode) { Task { await showIfDue() } }
             // A request is one scene's, the first active one to see it.
@@ -104,6 +111,96 @@ struct WhatsNewModifier: ViewModifier {
     private func presenting(_ page: WhatsNewPage) -> PresentedWhatsNew {
         PresentedWhatsNew(page: page, appVersion: TaoolUpdates.appVersion, appStoreURL: check.appStoreURL,
                           language: check.wording.language)
+    }
+}
+
+extension View {
+    /// What's New in your own design, for every `.taoolWhatsNew` inside it: put it once, after the modifiers on the
+    /// root view, as `.taoolUpdateRequiredScreen` is. TaoolKit still decides when it shows: once per version, to users
+    /// who had the app before it, held while `mode` says so, never over the update screen, TestFlight pages in
+    /// TestFlight. Your screen fills the sheet in place of the page, and the sheet counts as shown when it appears.
+    /// For an app with a What's New of its own: still upload a page for each version in the taool app, since it's
+    /// what tells TaoolKit the version has news, and the page is still what `pageURL` and `WhatsNewPageSheet` show.
+    ///
+    /// ```swift
+    /// ContentView()
+    ///     .taoolWhatsNew(key: "taool_public_…")
+    ///     .taoolWhatsNewScreen { whatsNew in
+    ///         if let release = MyReleases[whatsNew.version] {
+    ///             MyWhatsNew(release)                          // closes with @Environment(\.dismiss)
+    ///         } else {
+    ///             TaoolUpdates.WhatsNewPageSheet(whatsNew)    // a version this build knows nothing about: the page
+    ///         }
+    ///     }
+    /// ```
+    public func taoolWhatsNewScreen<Screen: View>(@ViewBuilder _ screen: @escaping (TaoolUpdates.WhatsNew) -> Screen) -> some View {
+        environment(\.taoolWhatsNewScreen, WhatsNewScreen { AnyView(screen($0)) })
+    }
+}
+
+extension TaoolUpdates {
+    /// What a What's New of your own design shows (`.taoolWhatsNewScreen`): which version it's about, and when
+    /// this build is older than that, TaoolKit's words and button for the update.
+    public struct WhatsNew: Identifiable {
+        /// The version the news is about: "2.0". Compare it to your own releases' versions.
+        public let version: String
+        /// The version to update to, when this build is older than `version`: what's new isn't in it yet.
+        public let updateTo: String?
+        /// "Update to version 2.0 to get what's new.", when there's `updateTo`.
+        public let updateMessage: String?
+        /// The label for the button that opens the App Store: "Update".
+        public let button: String
+        /// The page uploaded in the taool app for this version, with what it reads after its `#`.
+        public let pageURL: URL
+        let shown: PresentedWhatsNew
+        private let openAction: () -> Void
+
+        public var id: String { shown.id }
+
+        init(shown: PresentedWhatsNew, open: @escaping () -> Void = {}) {
+            let strings = UpdateStrings(language: shown.language)
+            version = shown.page.version
+            updateTo = shown.updateTo
+            updateMessage = shown.updateTo.map { strings.format("whatsNew.update", $0) }
+            button = strings["button.update"]
+            pageURL = shown.url
+            self.shown = shown
+            openAction = open
+        }
+
+        /// Opens the app's page in the App Store, for `updateTo`. Does nothing before taool has said where it is.
+        public func open() { openAction() }
+    }
+
+    /// TaoolKit's own What's New sheet, the uploaded page in a web view, for a `.taoolWhatsNewScreen` that has
+    /// nothing of its own for a version, such as a newer one than this build.
+    public struct WhatsNewPageSheet: View {
+        private let whatsNew: WhatsNew
+
+        public init(_ whatsNew: WhatsNew) { self.whatsNew = whatsNew }
+
+        public var body: some View { WhatsNewSheet(shown: whatsNew.shown) }
+    }
+}
+
+/// `.taoolWhatsNewScreen`'s screen, in a struct since `@Entry` warns of a bare closure, which never compares equal.
+struct WhatsNewScreen: Sendable {
+    let make: @MainActor (TaoolUpdates.WhatsNew) -> AnyView
+}
+
+extension EnvironmentValues {
+    @Entry var taoolWhatsNewScreen: WhatsNewScreen? = nil
+}
+
+/// The app's own What's New in the sheet, counted as shown once it's up: there's no page to load first.
+private struct CustomWhatsNew: View {
+    let shown: PresentedWhatsNew
+    let screen: WhatsNewScreen
+    @Environment(\.openURL) private var openURL
+
+    var body: some View {
+        screen.make(TaoolUpdates.WhatsNew(shown: shown) { if let url = shown.appStoreURL { openURL(url) } })
+            .onAppear { PromptMemory.shared.shown(shown.page) }
     }
 }
 
