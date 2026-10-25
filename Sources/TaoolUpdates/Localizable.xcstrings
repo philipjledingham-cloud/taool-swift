@@ -1,0 +1,2970 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "banner.message" : {
+      "comment" : "The banner's text. %@ is the version, like 2.0.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإصدار %@ متوفر الآن في App Store."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La versió %@ ja és a l’App Store."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verze %@ je k dispozici v App Storu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@ er i App Store."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@ ist im App Store verfügbar."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η έκδοση %@ είναι διαθέσιμη στο App Store."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@ is on the App Store."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La versión %@ ya está en el App Store."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La versión %@ ya está disponible en el App Store."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versio %@ on nyt App Storessa."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La version %@ est disponible sur l’App Store."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La version %@ est offerte dans l’App Store."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "גרסה %@ זמינה ב-App Store."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "संस्करण %@ App Store पर उपलब्ध है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verzija %@ dostupna je u trgovini App Store."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Új verzió érhető el az App Store-ban: %@."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %@ sudah tersedia di App Store."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La versione %@ è disponibile su App Store."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バージョン%@がApp Storeで入手できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store에서 버전 %@을(를) 사용할 수 있습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %@ kini ada di App Store."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versjon %@ er i App Store."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versie %@ staat in de App Store."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wersja %@ jest dostępna w App Store."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A versão %@ está disponível na App Store."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A versão %@ está disponível na App Store."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versiunea %@ este disponibilă în App Store."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия %@ доступна в App Store."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verzia %@ je dostupná v App Store."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@ finns i App Store."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวอร์ชั่น %@ มีให้ใช้งานแล้วบน App Store"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ sürümü App Store’da."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версія %@ доступна в App Store."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản %@ đã có trên App Store."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store 已有版本 %@。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store 上已有版本 %@。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store 已提供版本 %@。"
+          }
+        }
+      }
+    },
+    "banner.notNow" : {
+      "comment" : "Accessibility label of the banner's close button.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس الآن"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ara no"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teď ne"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke nu"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht jetzt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όχι τώρα"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Now"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahora no"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahora no"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei nyt"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus tard"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus tard"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא עכשיו"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अभी नहीं"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne sada"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Most nem"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jangan Sekarang"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non ora"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今はしない"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "나중에"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bukan Sekarang"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ikke nå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niet nu"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie teraz"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agora Não"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agora não"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu acum"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не сейчас"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teraz nie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inte nu"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่ใช่ตอนนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi Değil"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не зараз"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không phải bây giờ"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暫時不要"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以后"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在不要"
+          }
+        }
+      }
+    },
+    "banner.title" : {
+      "comment" : "The banner's title when a newer version is on the App Store.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتوفر تحديث"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualització disponible"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostupná aktualizace"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opdatering tilgængelig"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update verfügbar"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαθέσιμη ενημέρωση"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update Available"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualización disponible"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualización disponible"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivitys saatavilla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour disponible"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour disponible"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עדכון זמין"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपडेट उपलब्ध है"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostupno ažuriranje"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frissítés érhető el"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pembaruan Tersedia"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiornamento disponibile"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートがあります"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 사용 가능"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kemas Kini Tersedia"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdatering tilgjengelig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update beschikbaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostępne uaktualnienie"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualização Disponível"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualização disponível"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizare disponibilă"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно обновление"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostupná aktualizácia"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdatering tillgänglig"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีอัปเดต"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncelleme Var"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступне оновлення"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có bản cập nhật"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有可用更新"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有可用更新"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "有可用的更新"
+          }
+        }
+      }
+    },
+    "button.update" : {
+      "comment" : "The button that opens the App Store, as the App Store's own Update button says it.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحديث"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualitza"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizovat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opdater"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενημέρωση"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizar"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivitä"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mettre à jour"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mettre à jour"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עדכון"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपडेट करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ažuriraj"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frissítés"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perbarui"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiorna"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kemas Kini"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdater"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Werk bij"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uaktualnij"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualizar"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualizar"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizați"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновить"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizovať"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdatera"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อัปเดต"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncelle"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновити"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cập nhật"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新"
+          }
+        }
+      }
+    },
+    "required.message" : {
+      "comment" : "The update-required screen's text. %1$@ is the app's name, %2$@ the version to update to.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يعد هذا الإصدار من %1$@ مدعومًا. قم بالتحديث إلى الإصدار %2$@ لمتابعة استخدام التطبيق."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquesta versió de %1$@ ja no és compatible. Actualitza a la versió %2$@ per continuar utilitzant l’app."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tato verze aplikace %1$@ už není podporovaná. Aktualizujte ji na verzi %2$@, abyste ji mohli dál používat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne version af %1$@ understøttes ikke længere. Opdater til version %2$@ for at blive ved med at bruge appen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Version von %1$@ wird nicht mehr unterstützt. Aktualisiere auf Version %2$@, um die App weiter zu nutzen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτή η έκδοση της εφαρμογής %1$@ δεν υποστηρίζεται πλέον. Ενημερώστε την στην έκδοση %2$@ για να συνεχίσετε να τη χρησιμοποιείτε."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This version of %1$@ is no longer supported. Update to version %2$@ to keep using it."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %1$@ ya no es compatible. Actualiza a la versión %2$@ para seguir usando la app."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %1$@ ya no es compatible. Actualiza a la versión %2$@ para seguir usando la app."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: tätä versiota ei enää tueta. Päivitä versioon %2$@, jotta voit jatkaa käyttöä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %1$@ n’est plus prise en charge. Passez à la version %2$@ pour continuer à l’utiliser."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %1$@ n’est plus prise en charge. Passez à la version %2$@ pour continuer à l’utiliser."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "גרסה זו של %1$@ כבר אינה נתמכת. יש לעדכן לגרסה %2$@ כדי להמשיך להשתמש באפליקציה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ का यह संस्करण अब समर्थित नहीं है। इसका उपयोग जारी रखने के लिए संस्करण %2$@ पर अपडेट करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ova verzija aplikacije %1$@ više nije podržana. Ažurirajte je na verziju %2$@ kako biste je nastavili upotrebljavati."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: ez a verzió már nem támogatott. A további használathoz frissítsen erre a verzióra: %2$@."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %1$@ ini tidak lagi didukung. Perbarui ke versi %2$@ untuk terus menggunakannya."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa versione di %1$@ non è più supportata. Aggiorna alla versione %2$@ per continuare a usarla."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このバージョンの%1$@はサポートされなくなりました。引き続き使用するには、バージョン%2$@にアップデートしてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 버전의 %1$@은(는) 더 이상 지원되지 않습니다. 계속 사용하려면 버전 %2$@(으)로 업데이트하십시오."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %1$@ ini tidak lagi disokong. Kemas kini kepada versi %2$@ untuk terus menggunakannya."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne versjonen av %1$@ støttes ikke lenger. Oppdater til versjon %2$@ for å fortsette å bruke appen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze versie van %1$@ wordt niet meer ondersteund. Werk bij naar versie %2$@ om de app te blijven gebruiken."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta wersja aplikacji %1$@ nie jest już obsługiwana. Uaktualnij ją do wersji %2$@, aby nadal z niej korzystać."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %1$@ não é mais compatível. Atualize para a versão %2$@ para continuar usando o app."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %1$@ já não é suportada. Atualize para a versão %2$@ para continuar a utilizar a app."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Această versiune a aplicației %1$@ nu mai este acceptată. Actualizați la versiunea %2$@ pentru a o folosi în continuare."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта версия приложения «%1$@» больше не поддерживается. Обновите его до версии %2$@, чтобы продолжить им пользоваться."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Táto verzia aplikácie %1$@ už nie je podporovaná. Aktualizujte ju na verziu %2$@, aby ste ju mohli ďalej používať."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här versionen av %1$@ stöds inte längre. Uppdatera till version %2$@ för att fortsätta använda appen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่รองรับ %1$@ เวอร์ชั่นนี้แล้ว อัปเดตเป็นเวอร์ชั่น %2$@ เพื่อใช้งานต่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ uygulamasının bu sürümü artık desteklenmiyor. Kullanmaya devam etmek için %2$@ sürümüne güncelleyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ця версія програми «%1$@» більше не підтримується. Оновіть її до версії %2$@, щоб і далі нею користуватися."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản này của %1$@ không còn được hỗ trợ. Hãy cập nhật lên phiên bản %2$@ để tiếp tục sử dụng."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%1$@」已不再支援。請更新至版本 %2$@ 以繼續使用。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的“%1$@”已不再受支持。请更新到版本 %2$@ 以继续使用。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%1$@」已不再支援。請更新至版本 %2$@ 以繼續使用。"
+          }
+        }
+      }
+    },
+    "required.messageNoVersion" : {
+      "comment" : "The update-required screen's text when the version to update to isn't known. %@ is the app's name.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يعد هذا الإصدار من %@ مدعومًا. قم بتحديثه من App Store لمتابعة استخدام التطبيق."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquesta versió de %@ ja no és compatible. Actualitza-la des de l’App Store per continuar utilitzant l’app."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tato verze aplikace %@ už není podporovaná. Aktualizujte ji v App Storu, abyste ji mohli dál používat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne version af %@ understøttes ikke længere. Opdater den i App Store for at blive ved med at bruge appen."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Version von %@ wird nicht mehr unterstützt. Aktualisiere die App im App Store, um sie weiter zu nutzen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτή η έκδοση της εφαρμογής %@ δεν υποστηρίζεται πλέον. Ενημερώστε την από το App Store για να συνεχίσετε να τη χρησιμοποιείτε."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This version of %@ is no longer supported. Update it from the App Store to keep using it."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %@ ya no es compatible. Actualízala desde el App Store para seguir usando la app."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %@ ya no es compatible. Actualízala desde el App Store para seguir usando la app."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: tätä versiota ei enää tueta. Päivitä se App Storesta, jotta voit jatkaa käyttöä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %@ n’est plus prise en charge. Mettez-la à jour depuis l’App Store pour continuer à l’utiliser."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %@ n’est plus prise en charge. Mettez-la à jour dans l’App Store pour continuer à l’utiliser."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "גרסה זו של %@ כבר אינה נתמכת. יש לעדכן אותה מה-App Store כדי להמשיך להשתמש באפליקציה."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ का यह संस्करण अब समर्थित नहीं है। इसका उपयोग जारी रखने के लिए इसे App Store से अपडेट करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ova verzija aplikacije %@ više nije podržana. Ažurirajte je u trgovini App Store kako biste je nastavili upotrebljavati."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: ez a verzió már nem támogatott. A további használathoz frissítse az App Store-ban."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %@ ini tidak lagi didukung. Perbarui dari App Store untuk terus menggunakannya."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa versione di %@ non è più supportata. Aggiornala da App Store per continuare a usarla."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このバージョンの%@はサポートされなくなりました。引き続き使用するには、App Storeからアップデートしてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 버전의 %@은(는) 더 이상 지원되지 않습니다. 계속 사용하려면 App Store에서 업데이트하십시오."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %@ ini tidak lagi disokong. Kemas kini daripada App Store untuk terus menggunakannya."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne versjonen av %@ støttes ikke lenger. Oppdater den i App Store for å fortsette å bruke appen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze versie van %@ wordt niet meer ondersteund. Werk de app bij via de App Store om hem te blijven gebruiken."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta wersja aplikacji %@ nie jest już obsługiwana. Uaktualnij ją w App Store, aby nadal z niej korzystać."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %@ não é mais compatível. Atualize pela App Store para continuar usando o app."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %@ já não é suportada. Atualize-a na App Store para continuar a utilizar a app."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Această versiune a aplicației %@ nu mai este acceptată. Actualizați-o din App Store pentru a o folosi în continuare."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта версия приложения «%@» больше не поддерживается. Обновите его в App Store, чтобы продолжить им пользоваться."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Táto verzia aplikácie %@ už nie je podporovaná. Aktualizujte ju v App Store, aby ste ju mohli ďalej používať."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här versionen av %@ stöds inte längre. Uppdatera den i App Store för att fortsätta använda appen."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่รองรับ %@ เวอร์ชั่นนี้แล้ว อัปเดตจาก App Store เพื่อใช้งานต่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ uygulamasının bu sürümü artık desteklenmiyor. Kullanmaya devam etmek için App Store’dan güncelleyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ця версія програми «%@» більше не підтримується. Оновіть її в App Store, щоб і далі нею користуватися."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản này của %@ không còn được hỗ trợ. Hãy cập nhật từ App Store để tiếp tục sử dụng."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%@」已不再支援。請從 App Store 更新以繼續使用。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的“%@”已不再受支持。请从 App Store 更新以继续使用。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%@」已不再支援。請從 App Store 更新以繼續使用。"
+          }
+        }
+      }
+    },
+    "required.title" : {
+      "comment" : "The title of the screen covering the app when this version must update.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التحديث مطلوب"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cal actualitzar"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyžadována aktualizace"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opdatering påkrævet"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update erforderlich"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απαιτείται ενημέρωση"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update Required"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualización necesaria"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualización necesaria"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivitys vaaditaan"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour requise"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour requise"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נדרש עדכון"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपडेट आवश्यक है"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potrebno ažuriranje"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frissítés szükséges"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pembaruan Diperlukan"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiornamento necessario"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートが必要です"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 필요"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kemas Kini Diperlukan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdatering kreves"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update vereist"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wymagane uaktualnienie"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualização Necessária"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualização necessária"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizare necesară"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Требуется обновление"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyžaduje sa aktualizácia"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdatering krävs"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้องอัปเดต"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncelleme Gerekli"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Потрібне оновлення"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cần cập nhật"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要更新"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要更新"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要更新"
+          }
+        }
+      }
+    },
+    "unsupported.message" : {
+      "comment" : "The screen's text when the OS the current version needs isn't known. %@ is the app's name.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يعد هذا الإصدار من %@ مدعومًا."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquesta versió de %@ ja no és compatible."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tato verze aplikace %@ už není podporovaná."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne version af %@ understøttes ikke længere."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Version von %@ wird nicht mehr unterstützt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτή η έκδοση της εφαρμογής %@ δεν υποστηρίζεται πλέον."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This version of %@ is no longer supported."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %@ ya no es compatible."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %@ ya no es compatible."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: tätä versiota ei enää tueta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %@ n’est plus prise en charge."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %@ n’est plus prise en charge."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "גרסה זו של %@ כבר אינה נתמכת."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ का यह संस्करण अब समर्थित नहीं है।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ova verzija aplikacije %@ više nije podržana."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: ez a verzió már nem támogatott."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %@ ini tidak lagi didukung."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa versione di %@ non è più supportata."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このバージョンの%@はサポートされなくなりました。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 버전의 %@은(는) 더 이상 지원되지 않습니다."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %@ ini tidak lagi disokong."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne versjonen av %@ støttes ikke lenger."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze versie van %@ wordt niet meer ondersteund."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta wersja aplikacji %@ nie jest już obsługiwana."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %@ não é mais compatível."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %@ já não é suportada."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Această versiune a aplicației %@ nu mai este acceptată."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта версия приложения «%@» больше не поддерживается."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Táto verzia aplikácie %@ už nie je podporovaná."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här versionen av %@ stöds inte längre."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่รองรับ %@ เวอร์ชั่นนี้แล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ uygulamasının bu sürümü artık desteklenmiyor."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ця версія програми «%@» більше не підтримується."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản này của %@ không còn được hỗ trợ."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%@」已不再支援。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的“%@”已不再受支持。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%@」已不再支援。"
+          }
+        }
+      }
+    },
+    "unsupported.messageIOS" : {
+      "comment" : "%1$@ is the app's name, %2$@ iOS, iPadOS or visionOS, %3$@ the OS version the app needs. Settings is the Settings app's name.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يعد هذا الإصدار من %1$@ مدعومًا، ويتطلب الإصدار الحالي %2$@ %3$@ أو أحدث. قم بتحديث %2$@ من الإعدادات لمتابعة استخدام %1$@."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquesta versió de %1$@ ja no és compatible i la versió actual requereix %2$@ %3$@ o posterior. Actualitza %2$@ a Configuració per continuar utilitzant %1$@."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tato verze aplikace %1$@ už není podporovaná a aktuální verze vyžaduje %2$@ %3$@ nebo novější. Aktualizujte %2$@ v Nastavení, abyste mohli aplikaci %1$@ dál používat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne version af %1$@ understøttes ikke længere, og den nyeste version kræver %2$@ %3$@ eller nyere. Opdater %2$@ i Indstillinger for at blive ved med at bruge %1$@."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Version von %1$@ wird nicht mehr unterstützt, und die aktuelle Version benötigt %2$@ %3$@ oder neuer. Aktualisiere %2$@ in den Einstellungen, um %1$@ weiter zu nutzen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτή η έκδοση της εφαρμογής %1$@ δεν υποστηρίζεται πλέον και η τρέχουσα έκδοση απαιτεί %2$@ %3$@ ή νεότερη έκδοση. Ενημερώστε το %2$@ στις Ρυθμίσεις για να συνεχίσετε να χρησιμοποιείτε την εφαρμογή %1$@."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This version of %1$@ is no longer supported, and the current version needs %2$@ %3$@ or later. Update %2$@ in Settings to keep using %1$@."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %1$@ ya no es compatible y la versión actual requiere %2$@ %3$@ o posterior. Actualiza %2$@ en Ajustes para seguir usando %1$@."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %1$@ ya no es compatible y la versión actual requiere %2$@ %3$@ o posterior. Actualiza %2$@ en Configuración para seguir usando %1$@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: tätä versiota ei enää tueta, ja uusin versio vaatii käyttöjärjestelmän %2$@ %3$@ tai uudemman. Päivitä %2$@ Asetuksissa, jotta voit jatkaa käyttöä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %1$@ n’est plus prise en charge, et la version actuelle nécessite %2$@ %3$@ ou ultérieur. Mettez à jour %2$@ dans Réglages pour continuer à utiliser %1$@."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %1$@ n’est plus prise en charge, et la version actuelle nécessite %2$@ %3$@ ou une version ultérieure. Mettez à jour %2$@ dans Réglages pour continuer à utiliser %1$@."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "גרסה זו של %1$@ כבר אינה נתמכת, והגרסה הנוכחית דורשת %2$@ %3$@ ואילך. יש לעדכן את %2$@ ב״הגדרות״ כדי להמשיך להשתמש ב-%1$@."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ का यह संस्करण अब समर्थित नहीं है, और वर्तमान संस्करण के लिए %2$@ %3$@ या बाद का संस्करण आवश्यक है। %1$@ का उपयोग जारी रखने के लिए सेटिंग्ज़ में %2$@ अपडेट करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ova verzija aplikacije %1$@ više nije podržana, a trenutačna verzija zahtijeva %2$@ %3$@ ili noviji. Ažurirajte %2$@ u Postavkama kako biste nastavili upotrebljavati aplikaciju %1$@."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: ez a verzió már nem támogatott, a legújabb verzióhoz pedig %2$@ %3$@ vagy újabb szükséges. A további használathoz frissítse a rendszert (%2$@) a Beállításokban."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %1$@ ini tidak lagi didukung, dan versi terbaru memerlukan %2$@ %3$@ atau lebih baru. Perbarui %2$@ di Pengaturan untuk terus menggunakan %1$@."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa versione di %1$@ non è più supportata e la versione attuale richiede %2$@ %3$@ o versioni successive. Aggiorna %2$@ in Impostazioni per continuare a usare %1$@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このバージョンの%1$@はサポートされなくなりました。最新バージョンには%2$@ %3$@以降が必要です。%1$@を引き続き使用するには、“設定”で%2$@をアップデートしてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 버전의 %1$@은(는) 더 이상 지원되지 않으며, 최신 버전을 사용하려면 %2$@ %3$@ 이상이 필요합니다. %1$@을(를) 계속 사용하려면 설정에서 %2$@을(를) 업데이트하십시오."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %1$@ ini tidak lagi disokong dan versi semasa memerlukan %2$@ %3$@ atau lebih baharu. Kemas kini %2$@ dalam Seting untuk terus menggunakan %1$@."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne versjonen av %1$@ støttes ikke lenger, og den nyeste versjonen krever %2$@ %3$@ eller nyere. Oppdater %2$@ i Innstillinger for å fortsette å bruke %1$@."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze versie van %1$@ wordt niet meer ondersteund en de huidige versie vereist %2$@ %3$@ of nieuwer. Werk %2$@ bij in Instellingen om %1$@ te blijven gebruiken."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta wersja aplikacji %1$@ nie jest już obsługiwana, a aktualna wersja wymaga systemu %2$@ %3$@ lub nowszego. Uaktualnij system %2$@ w Ustawieniach, aby nadal korzystać z aplikacji %1$@."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %1$@ não é mais compatível, e a versão atual requer o %2$@ %3$@ ou posterior. Atualize o %2$@ em Ajustes para continuar usando o app."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %1$@ já não é suportada e a versão atual requer o %2$@ %3$@ ou posterior. Atualize o %2$@ nas Definições para continuar a utilizar a app."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Această versiune a aplicației %1$@ nu mai este acceptată, iar versiunea actuală necesită %2$@ %3$@ sau ulterior. Actualizați %2$@ în Configurări pentru a folosi în continuare %1$@."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта версия приложения «%1$@» больше не поддерживается, а для текущей версии требуется %2$@ %3$@ или новее. Обновите %2$@ в Настройках, чтобы продолжить пользоваться приложением."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Táto verzia aplikácie %1$@ už nie je podporovaná a aktuálna verzia vyžaduje %2$@ %3$@ alebo novší. Aktualizujte %2$@ v Nastaveniach, aby ste mohli aplikáciu %1$@ ďalej používať."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här versionen av %1$@ stöds inte längre, och den senaste versionen kräver %2$@ %3$@ eller senare. Uppdatera %2$@ i Inställningar för att fortsätta använda %1$@."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่รองรับ %1$@ เวอร์ชั่นนี้แล้ว และเวอร์ชั่นปัจจุบันต้องใช้ %2$@ %3$@ ขึ้นไป อัปเดต %2$@ ในการตั้งค่าเพื่อใช้งาน %1$@ ต่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ uygulamasının bu sürümü artık desteklenmiyor ve güncel sürüm %2$@ %3$@ veya sonrasını gerektiriyor. %1$@ uygulamasını kullanmaya devam etmek için Ayarlar’da %2$@ güncellemesini yapın."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ця версія програми «%1$@» більше не підтримується, а для поточної версії потрібна система %2$@ %3$@ або новіша. Оновіть %2$@ у Параметрах, щоб і далі користуватися програмою."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản này của %1$@ không còn được hỗ trợ và phiên bản hiện tại yêu cầu %2$@ %3$@ trở lên. Hãy cập nhật %2$@ trong Cài đặt để tiếp tục sử dụng %1$@."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%1$@」已不再支援，而最新版本需要 %2$@ %3$@ 或以上版本。請前往「設定」更新 %2$@ 以繼續使用「%1$@」。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的“%1$@”已不再受支持，且最新版本需要 %2$@ %3$@ 或更高版本。请在“设置”中更新 %2$@ 以继续使用“%1$@”。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%1$@」已不再支援，且最新版本需要 %2$@ %3$@ 或以上版本。請前往「設定」更新 %2$@ 以繼續使用「%1$@」。"
+          }
+        }
+      }
+    },
+    "unsupported.messageMac" : {
+      "comment" : "%1$@ is the app's name, %2$@ the macOS version the app needs. System Settings is the app's name on the Mac.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يعد هذا الإصدار من %1$@ مدعومًا، ويتطلب الإصدار الحالي macOS %2$@ أو أحدث. قم بتحديث macOS من إعدادات النظام لمتابعة استخدام %1$@."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aquesta versió de %1$@ ja no és compatible i la versió actual requereix macOS %2$@ o posterior. Actualitza macOS a Configuració del Sistema per continuar utilitzant %1$@."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tato verze aplikace %1$@ už není podporovaná a aktuální verze vyžaduje macOS %2$@ nebo novější. Aktualizujte macOS v Nastavení systému, abyste mohli aplikaci %1$@ dál používat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne version af %1$@ understøttes ikke længere, og den nyeste version kræver macOS %2$@ eller nyere. Opdater macOS i Systemindstillinger for at blive ved med at bruge %1$@."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Version von %1$@ wird nicht mehr unterstützt, und die aktuelle Version benötigt macOS %2$@ oder neuer. Aktualisiere macOS in den Systemeinstellungen, um %1$@ weiter zu nutzen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτή η έκδοση της εφαρμογής %1$@ δεν υποστηρίζεται πλέον και η τρέχουσα έκδοση απαιτεί macOS %2$@ ή νεότερη έκδοση. Ενημερώστε το macOS στις Ρυθμίσεις συστήματος για να συνεχίσετε να χρησιμοποιείτε την εφαρμογή %1$@."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This version of %1$@ is no longer supported, and the current version needs macOS %2$@ or later. Update macOS in System Settings to keep using %1$@."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %1$@ ya no es compatible y la versión actual requiere macOS %2$@ o posterior. Actualiza macOS en Ajustes del Sistema para seguir usando %1$@."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versión de %1$@ ya no es compatible y la versión actual requiere macOS %2$@ o posterior. Actualiza macOS en Configuración del Sistema para seguir usando %1$@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: tätä versiota ei enää tueta, ja uusin versio vaatii käyttöjärjestelmän macOS %2$@ tai uudemman. Päivitä macOS Järjestelmäasetuksissa, jotta voit jatkaa käyttöä."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %1$@ n’est plus prise en charge, et la version actuelle nécessite macOS %2$@ ou ultérieur. Mettez à jour macOS dans Réglages Système pour continuer à utiliser %1$@."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette version de %1$@ n’est plus prise en charge, et la version actuelle nécessite macOS %2$@ ou une version ultérieure. Mettez à jour macOS dans Réglages système pour continuer à utiliser %1$@."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "גרסה זו של %1$@ כבר אינה נתמכת, והגרסה הנוכחית דורשת macOS %2$@ ואילך. יש לעדכן את macOS ב״הגדרות המערכת״ כדי להמשיך להשתמש ב-%1$@."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ का यह संस्करण अब समर्थित नहीं है, और वर्तमान संस्करण के लिए macOS %2$@ या बाद का संस्करण आवश्यक है। %1$@ का उपयोग जारी रखने के लिए सिस्टम सेटिंग्ज़ में macOS अपडेट करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ova verzija aplikacije %1$@ više nije podržana, a trenutačna verzija zahtijeva macOS %2$@ ili noviji. Ažurirajte macOS u Postavkama sustava kako biste nastavili upotrebljavati aplikaciju %1$@."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: ez a verzió már nem támogatott, a legújabb verzióhoz pedig macOS %2$@ vagy újabb szükséges. A további használathoz frissítse a macOS-t a Rendszerbeállításokban."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %1$@ ini tidak lagi didukung, dan versi terbaru memerlukan macOS %2$@ atau lebih baru. Perbarui macOS di Pengaturan Sistem untuk terus menggunakan %1$@."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa versione di %1$@ non è più supportata e la versione attuale richiede macOS %2$@ o versioni successive. Aggiorna macOS in Impostazioni di Sistema per continuare a usare %1$@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このバージョンの%1$@はサポートされなくなりました。最新バージョンにはmacOS %2$@以降が必要です。%1$@を引き続き使用するには、“システム設定”でmacOSをアップデートしてください。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 버전의 %1$@은(는) 더 이상 지원되지 않으며, 최신 버전을 사용하려면 macOS %2$@ 이상이 필요합니다. %1$@을(를) 계속 사용하려면 시스템 설정에서 macOS를 업데이트하십시오."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versi %1$@ ini tidak lagi disokong dan versi semasa memerlukan macOS %2$@ atau lebih baharu. Kemas kini macOS dalam Seting Sistem untuk terus menggunakan %1$@."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denne versjonen av %1$@ støttes ikke lenger, og den nyeste versjonen krever macOS %2$@ eller nyere. Oppdater macOS i Systeminnstillinger for å fortsette å bruke %1$@."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze versie van %1$@ wordt niet meer ondersteund en de huidige versie vereist macOS %2$@ of nieuwer. Werk macOS bij in Systeeminstellingen om %1$@ te blijven gebruiken."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta wersja aplikacji %1$@ nie jest już obsługiwana, a aktualna wersja wymaga systemu macOS %2$@ lub nowszego. Uaktualnij system macOS w Ustawieniach systemowych, aby nadal korzystać z aplikacji %1$@."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %1$@ não é mais compatível, e a versão atual requer o macOS %2$@ ou posterior. Atualize o macOS em Ajustes do Sistema para continuar usando o app."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão de %1$@ já não é suportada e a versão atual requer o macOS %2$@ ou posterior. Atualize o macOS nas Definições do Sistema para continuar a utilizar a app."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Această versiune a aplicației %1$@ nu mai este acceptată, iar versiunea actuală necesită macOS %2$@ sau ulterior. Actualizați macOS în Configurări sistem pentru a folosi în continuare %1$@."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта версия приложения «%1$@» больше не поддерживается, а для текущей версии требуется macOS %2$@ или новее. Обновите macOS в Системных настройках, чтобы продолжить пользоваться приложением."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Táto verzia aplikácie %1$@ už nie je podporovaná a aktuálna verzia vyžaduje macOS %2$@ alebo novší. Aktualizujte macOS v Systémových nastaveniach, aby ste mohli aplikáciu %1$@ ďalej používať."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den här versionen av %1$@ stöds inte längre, och den senaste versionen kräver macOS %2$@ eller senare. Uppdatera macOS i Systeminställningar för att fortsätta använda %1$@."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่รองรับ %1$@ เวอร์ชั่นนี้แล้ว และเวอร์ชั่นปัจจุบันต้องใช้ macOS %2$@ ขึ้นไป อัปเดต macOS ในการตั้งค่าระบบเพื่อใช้งาน %1$@ ต่อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ uygulamasının bu sürümü artık desteklenmiyor ve güncel sürüm macOS %2$@ veya sonrasını gerektiriyor. %1$@ uygulamasını kullanmaya devam etmek için Sistem Ayarları’nda macOS güncellemesini yapın."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ця версія програми «%1$@» більше не підтримується, а для поточної версії потрібна система macOS %2$@ або новіша. Оновіть macOS у Системних параметрах, щоб і далі користуватися програмою."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiên bản này của %1$@ không còn được hỗ trợ và phiên bản hiện tại yêu cầu macOS %2$@ trở lên. Hãy cập nhật macOS trong Cài đặt hệ thống để tiếp tục sử dụng %1$@."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%1$@」已不再支援，而最新版本需要 macOS %2$@ 或以上版本。請前往「系統設定」更新 macOS 以繼續使用「%1$@」。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的“%1$@”已不再受支持，且最新版本需要 macOS %2$@ 或更高版本。请在“系统设置”中更新 macOS 以继续使用“%1$@”。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此版本的「%1$@」已不再支援，且最新版本需要 macOS %2$@ 或以上版本。請前往「系統設定」更新 macOS 以繼續使用「%1$@」。"
+          }
+        }
+      }
+    },
+    "unsupported.title" : {
+      "comment" : "The title of the screen when this version must update but no version runs on this device's OS.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التحديث غير متوفر"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualització no disponible"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizace není k dispozici"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opdatering ikke tilgængelig"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update nicht verfügbar"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μη διαθέσιμη ενημέρωση"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update Not Available"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualización no disponible"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualización no disponible"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivitys ei saatavilla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour indisponible"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise à jour non offerte"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "העדכון אינו זמין"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अपडेट उपलब्ध नहीं है"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ažuriranje nije dostupno"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frissítés nem érhető el"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pembaruan Tidak Tersedia"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiornamento non disponibile"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデートできません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트할 수 없음"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kemas Kini Tidak Tersedia"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdatering ikke tilgjengelig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update niet beschikbaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uaktualnienie niedostępne"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualização Indisponível"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualização indisponível"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizare indisponibilă"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновление недоступно"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizácia nie je dostupná"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdatering inte tillgänglig"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีอัปเดตที่ใช้ได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncelleme Kullanılamıyor"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновлення недоступне"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có bản cập nhật"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法更新"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法更新"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法更新"
+          }
+        }
+      }
+    },
+    "whatsNew.close" : {
+      "comment" : "Closes the What's New page.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إغلاق"
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanca"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείσιμο"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulje"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סגירה"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "बंद करें"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatvori"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bezárás"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "닫기"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamknij"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fechar"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fechar"
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Închideți"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavrieť"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрити"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
+          }
+        }
+      }
+    },
+    "whatsNew.update" : {
+      "comment" : "The bar under a What's New page when this build is older than the page's version. %@ is the version.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حدّث إلى الإصدار %@ للحصول على الميزات الجديدة."
+          }
+        },
+        "ca" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualitza a la versió %@ per gaudir de les novetats."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizujte na verzi %@ a získejte novinky."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opdater til version %@ for at få det nye."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisiere auf Version %@, um die Neuerungen zu erhalten."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενημερώστε στην έκδοση %@ για να αποκτήσετε τις νέες δυνατότητες."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Update to version %@ to get what’s new."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualiza a la versión %@ para disfrutar de las novedades."
+          }
+        },
+        "es-MX" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualiza a la versión %@ para disfrutar las novedades."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivitä versioon %@, niin saat uudet ominaisuudet käyttöön."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passez à la version %@ pour profiter des nouveautés."
+          }
+        },
+        "fr-CA" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passez à la version %@ pour profiter des nouveautés."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יש לעדכן לגרסה %@ כדי ליהנות מהחידושים."
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "नई सुविधाएँ पाने के लिए संस्करण %@ पर अपडेट करें।"
+          }
+        },
+        "hr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ažurirajte na verziju %@ kako biste dobili novosti."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az újdonságokért frissítsen erre a verzióra: %@."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perbarui ke versi %@ untuk mendapatkan fitur baru."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiorna alla versione %@ per scoprire le novità."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バージョン%@にアップデートすると、新機能を利用できます。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새로운 기능을 사용하려면 버전 %@(으)로 업데이트하십시오."
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kemas kini kepada versi %@ untuk mendapatkan ciri baharu."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdater til versjon %@ for å få det nye."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Werk bij naar versie %@ om de nieuwe functies te krijgen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uaktualnij do wersji %@, aby korzystać z nowości."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualize para a versão %@ para ver as novidades."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualize para a versão %@ para ver as novidades."
+          }
+        },
+        "ro" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actualizați la versiunea %@ pentru a descoperi noutățile."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновите приложение до версии %@, чтобы получить новые функции."
+          }
+        },
+        "sk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualizujte na verziu %@ a získajte novinky."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdatera till version %@ för att få det nya."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อัปเดตเป็นเวอร์ชั่น %@ เพื่อรับสิ่งใหม่ๆ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilikler için %@ sürümüne güncelleyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оновіть програму до версії %@, щоб отримати нові можливості."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy cập nhật lên phiên bản %@ để nhận các tính năng mới."
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新至版本 %@ 即可享用新功能。"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新到版本 %@ 即可体验新功能。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新至版本 %@ 即可體驗新功能。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

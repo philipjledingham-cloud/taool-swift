@@ -1,0 +1,17 @@
+# Fails a push or pull request that tracks agent notes or local settings. Only in the public repo.
+name: Private files
+on: [push, pull_request]
+jobs:
+  check:
+    if: github.repository == 'taoolcom/taool-swift'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No agent notes or local settings
+        run: |
+          found="$(git ls-files | grep -iE '(^|/)(CLAUDE[^/]*|AGENTS[^/]*|\.mcp\.json|\.env[^/]*)$|(^|/)\.claude/' || true)"
+          if [ -n "$found" ]; then
+            echo "These must not be in this repo:"
+            echo "$found"
+            exit 1
+          fi
